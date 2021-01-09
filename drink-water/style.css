@@ -63,7 +63,6 @@ h3 {
 .cups {
     display: flex;
     flex-wrap: wrap;
-    width: 280px;
     align-items: center;
     justify-content: center;
     width: 280px;
