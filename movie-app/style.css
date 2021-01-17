@@ -41,9 +41,10 @@ header {
     background-color: var(--primary-color);
 }
 
-.main {
+main {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .movie {
@@ -101,9 +102,10 @@ header {
     right: 0;
     max-height: 100%;
     transform: translateY(101%);
+    overflow-y: auto;
     transition: transform 0.3s ease-in;
 }
 
 .movie:hover .overview {
-    transform: translateY(0)
+    transform: translateY(0);
 }
